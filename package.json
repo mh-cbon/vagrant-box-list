@@ -1,6 +1,6 @@
 {
   "name": "@mh-cbon/vagrant-box-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List local vagrant boxes",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "public": "npm publish --access=public"
   },
   "keywords": [
-    "vagrant", "box"
+    "vagrant",
+    "box"
   ],
   "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
   "license": "MIT",
