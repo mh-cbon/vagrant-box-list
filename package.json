@@ -1,0 +1,26 @@
+{
+  "name": "@mh-cbon/vagrant-box-list",
+  "version": "1.0.0",
+  "description": "List local vagrant boxes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch -m \"patch %s\"",
+    "minor": "npm version minor -m \"minor %s\"",
+    "major": "npm version major -m \"major %s\"",
+    "preversion": "echo \"npm test: not defined\"",
+    "version": "echo \"npm run build: not defined\"",
+    "postversion": "git push && git push --tags && npm run public",
+    "public": "npm publish --access=public"
+  },
+  "keywords": [
+    "vagrant", "box"
+  ],
+  "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "glob": "^7.0.3",
+    "homedir": "^0.6.0"
+  }
+}
